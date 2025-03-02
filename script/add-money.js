@@ -14,7 +14,7 @@ document.getElementById('add-money').addEventListener('click', function(event){
         const mainBlance = document.getElementById('main-balance').innerText=sum;
     }
     else{
-        console.log('pin thk neei')
+        alert('Your Pin in is invalid')
     }
 
     // const pin = document.getElementById('pin').value;
